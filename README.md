@@ -1,5 +1,5 @@
 # tensor-algebra
-Some frequently required methods for the implementation of problems in the field of continuum mechanics, e.g. tensor algebra. These methods are usually needed and used to implement user subroutines in finite element software written in Fortran. Therefore, this repository provides some elegant interfaces to write your equations as you are used to from Matlab or Python. I've also made some speed improvements (hopefully ;)).
+Some frequently required methods for the implementation of problems in the field of continuum mechanics, e.g. tensor algebra. These methods are usually needed and used to implement user subroutines in finite element software written in Fortran. Therefore, this repository provides some elegant interfaces to write your equations as you are used to from Matlab or Python. I've also made some speed improvements (hopefully 😏).
 
 ## Modules
 Most of the listed functions have been implemented for different input parameter types and are overloaded by the use of `INTERFACE`. The compiler takes care of choosing the appropriate subroutine based on the type of the actual input parameter. Therefore, the readability of your code is increased.
