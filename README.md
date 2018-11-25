@@ -35,16 +35,20 @@ I only implemented the input parameter types and orders I needed, so feel free t
 ## Example
 
 ```fortran
-! some of the variable declarations
 ...
+USE comSub
+USE comMath
+USE comConti
+...
+! some of the variable declarations
 real(8)  :: f_tmp
 real(8)  :: t2f_tmp (3,3)
 real(8)  :: t4f_tmp (3,3,3,3)
-...
+
 real(8)  :: t2f_I (3,3)
 real(8)  :: t2f_eps (3,3)  ! log. strain epsilon
 real(8)  :: t2f_epsD (3,3)  ! log. viscous strain epsilon
-...
+
 real(8)  :: t2f_sigEl (3,3)  ! log. elastic stress
 real(8)  :: t4f_tanEl (3,3,3,3)  ! log. elastic tangent
 ...
