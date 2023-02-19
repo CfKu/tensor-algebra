@@ -74,4 +74,4 @@ pp(t4f_tanEl)
 ```
 
 ## License
-This project is licensed under the Beerware License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the terms of the MIT license - see the [LICENSE](LICENSE) file for details.
